@@ -51,4 +51,4 @@ app.get('/download', (req, res) => {
 
 console.log("Starting server...");
 //Start the server
-app.listen(process.env.Port);
+app.listen(process.env.PORT);
