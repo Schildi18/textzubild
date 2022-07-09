@@ -1,0 +1,61 @@
+h1{
+    color: red;
+    /*Align h1 to the top center*/
+    text-align: center;
+    /*Set the font size to 30px*/
+    font-size: 50px;
+
+}
+
+/*Make the text red and center it under the h1*/
+p{
+    color: red;
+    text-align: center;
+    /*make the font scize to 15px*/
+    font-size: 25px;
+}
+
+body{
+    background-color: rgb(0, 191, 255);
+}
+
+/*Make the input file and button #75b365 and center it in the middle of the canvas. font size 20*/
+input[type="file"]{
+    background-color: #75b365;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    /*move it down 100px*/
+    position: relative;
+    top: 300px;
+    /*move it to the right 50px*/
+    left: 600px;
+    
+}
+
+/*Move the convert button 100px down and 500px left*/
+button[type="submit"]{
+    background-color: #75b365;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    /*move it down 100px*/
+    position: relative;
+    top: 300px;
+    /*move it to the right 50px*/
+    left: 730px;
+}
