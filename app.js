@@ -51,5 +51,4 @@ app.get('/download', (req, res) => {
 
 console.log("Starting server...");
 //Start the server
-const Port = 8080 || process.env.Port;
-app.listen(Port, () => console.log(`Server started on port ${Port}`));
+app.listen(process.env.Port || 8080);
