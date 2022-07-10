@@ -59,3 +59,21 @@ button[type="submit"]{
     /*move it to the right 50px*/
     left: 730px;
 }
+
+/*Move p1 down and to the left side. Recice it to 20px*/
+p1{
+    position: relative;
+    top: 700px;
+    font-size: 22px;
+    /*Colour Black*/
+    color: black;
+}
+/*Center p2 in the middle of the screen*/
+p2{
+    position: relative;
+    bottom: 50px;
+    left: 350px;
+    font-size: 22px;
+    /*Colour Black*/
+    color: black;
+}
